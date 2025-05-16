@@ -69,7 +69,7 @@ for page in document.pages[1:]:
         
         if re.match(pattern, content) or content.startswith('@'):
             formated = content.replace('@', '').split()[0].title()
-            owner = formated.replace('Lilian', 'Cunhada').replace('Jessica', 'Fernanda')
+            owner = formated.replace('Lilian', 'Talita').replace('Jessica', 'Fernanda')
             
             if owner not in owners:
                 data[owner] = []
